@@ -1,1 +1,32 @@
+/*General styling*/
+html {
+  font-family: 'Open Sans', sans-serif; /*sets font for all elements*/
+  font-size: 14px;
+  color: rgb(79, 68, 67);
+}
 
+a {
+  text-decoration: none !important; /*removes underline from hyperlinks*/
+  color: rgb(79, 68, 67);
+}
+
+.container {
+  width: 100%;  /*helps to keep smaller margins*/
+}
+
+
+/*NAVBAR styling*/
+nav {
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: rgb(248, 248, 248);
+  height: 3rem;
+}
+
+.navbar-nav .active{
+  color: #399bd1 !important;
+}
+
+nav li {
+  display: inline-block;
+}
