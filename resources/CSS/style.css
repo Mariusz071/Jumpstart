@@ -10,8 +10,17 @@ a {
   color: rgb(79, 68, 67);
 }
 
+h3 {
+  font-weight: bold; /*styling of the featured and projects header*/
+  font-size: 1.7rem;
+  color: #399bd1;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
 .container {
   width: 100%;  /*helps to keep smaller margins*/
+  padding: 0 40px;
 }
 
 
@@ -30,3 +39,60 @@ nav {
 nav li {
   display: inline-block;
 }
+
+
+/*JUMBOTRON styling*/
+.jumbotron{
+  background-image:url('../images/bike.jpg');
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+  1px 1px 0 #000; /*text's black outline*/
+
+}
+
+.jumbotron h1{ /*JUMBOTRON header styling */
+  font-family: Monoton, 'sans-serif';
+  font-size: 7.1rem;
+}
+
+.jumbotron p { /*JUMBOTRON  paragrap styling */
+  width: 51.3rem;
+  margin:0 auto;
+}
+
+
+/*FEATURED section*/
+#featured-container {
+  width:80%; /*sets margins within featured*/
+}
+
+.featured img {
+  width: 100%; /*fits the images to the boostrap columns*/
+  height: auto;
+  opacity: 0.7;
+}
+
+.featured h4 {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+
+.featured p, ul {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: rgba(0,0,0,0.7);
+}
+
+#categories {
+  color: #399bd1;
+}
+
+.featured li {
+  margin-top: 1.4;
+}
+
+/*PROJECTS section*/
