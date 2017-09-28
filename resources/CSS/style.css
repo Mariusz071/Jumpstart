@@ -18,9 +18,26 @@ h3 {
   width: 100%;
 }
 
+p, ul {
+  font-size: 1rem; /*Styling of general text*/
+  line-height: 1.4;
+  color: rgba(0,0,0,0.7);
+}
+
 .container {
   width: 100%;  /*helps to keep smaller margins*/
-  padding: 0 40px;
+  padding: 0;
+}
+
+img {
+width: 100%; /*fits the images to the boostrap columns*/
+height: auto;
+}
+
+h4 {
+  font-weight: bold; /*Styling of sub-headers*/
+  font-size: 1.3rem;
+  margin-top: 0;
 }
 
 
@@ -61,30 +78,13 @@ nav li {
 .jumbotron p { /*JUMBOTRON  paragrap styling */
   width: 51.3rem;
   margin:0 auto;
+  color: white;
 }
 
 
 /*FEATURED section*/
 #featured-container {
   width:80%; /*sets margins within featured*/
-}
-
-.featured img {
-  width: 100%; /*fits the images to the boostrap columns*/
-  height: auto;
-  opacity: 0.7;
-}
-
-.featured h4 {
-  font-weight: bold;
-  font-size: 1.3rem;
-  margin-top: 0;
-}
-
-.featured p, ul {
-  font-size: 1rem;
-  line-height: 1.4;
-  color: rgba(0,0,0,0.7);
 }
 
 #categories {
@@ -96,3 +96,7 @@ nav li {
 }
 
 /*PROJECTS section*/
+
+.projects img {
+  margin-bottom: 20px;
+}
