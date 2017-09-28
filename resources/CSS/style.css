@@ -1,17 +1,17 @@
-/*General styling*/
+/*GENERAL styling*/
 html {
-  font-family: 'Open Sans', sans-serif; /*sets font for all elements*/
+  font-family: 'Open Sans', sans-serif;          /*sets font for all elements*/
   font-size: 14px;
   color: rgb(79, 68, 67);
 }
 
 a {
-  text-decoration: none !important; /*removes underline from hyperlinks*/
+  text-decoration: none !important;       /*removes underline from hyperlinks*/
   color: rgb(79, 68, 67);
 }
 
 h3 {
-  font-weight: bold; /*styling of the featured and projects header*/
+  font-weight: bold;            /*styling of the featured and projects header*/
   font-size: 1.7rem;
   color: #399bd1;
   margin-bottom: 20px;
@@ -19,23 +19,23 @@ h3 {
 }
 
 p, ul {
-  font-size: 1rem; /*Styling of general text*/
+  font-size: 1rem;                                  /*Styling of general text*/
   line-height: 1.4;
   color: rgba(0,0,0,0.7);
 }
 
 .container {
-  width: 100%;  /*helps to keep smaller margins*/
+  width: 100%;                                /*helps to keep smaller margins*/
   padding: 0;
 }
 
 img {
-width: 100%; /*fits the images to the boostrap columns*/
+width: 100%;                        /*fits the images to the boostrap columns*/
 height: auto;
 }
 
 h4 {
-  font-weight: bold; /*Styling of sub-headers*/
+  font-weight: bold;                                 /*Styling of sub-headers*/
   font-size: 1.3rem;
   margin-top: 0;
 }
@@ -47,6 +47,7 @@ nav {
   font-weight: bold;
   background-color: rgb(248, 248, 248);
   height: 3rem;
+  padding: 0 20px;
 }
 
 .navbar-nav .active{
@@ -70,12 +71,12 @@ nav li {
 
 }
 
-.jumbotron h1{ /*JUMBOTRON header styling */
+.jumbotron h1{                                    /*JUMBOTRON header styling */
   font-family: Monoton, 'sans-serif';
   font-size: 7.1rem;
 }
 
-.jumbotron p { /*JUMBOTRON  paragrap styling */
+.jumbotron p {                                 /*JUMBOTRON  paragrap styling */
   width: 51.3rem;
   margin:0 auto;
   color: white;
@@ -84,7 +85,7 @@ nav li {
 
 /*FEATURED section*/
 #featured-container {
-  width:80%; /*sets margins within featured*/
+  width:80%;                                   /*sets margins within featured*/
 }
 
 #categories {
@@ -96,7 +97,46 @@ nav li {
 }
 
 /*PROJECTS section*/
+.projects {
+  margin-bottom: 5.85rem;
+}
 
 .projects img {
   margin-bottom: 20px;
+}
+
+/*TROUBLE section*/
+.trouble {                                      /*section's container styling*/
+  text-align: center;
+  margin:auto;
+  background-color: #f3f3f3;
+  padding: 5.2rem;
+}
+
+.trouble h2 {                                              /*Section's header*/
+  font-size: 2.5rem
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+.trouble p {
+  width: 42rem;
+  margin: auto;
+}
+
+.trouble .btn {                                   /*Learn More button styling*/
+  border: none;
+  color: white;
+  background-color: #399bd1;
+  margin-top: 20px;
+  width: 10rem;
+  height: 3.5rem;
+}
+
+.trouble .btn:hover {
+  box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.7);         /*hoover shadow effect*/
+}
+
+.trouble .btn {
+  transition: box-shadow 400ms linear;                  /*box-shadow settings*/
 }
